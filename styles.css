@@ -72,8 +72,13 @@ header {
 
 /* Home page */
 
+.form-control {
+    height: 50px !important;
+}
+
 .form-container {
     background-color: #4884E8;
+    width: 400px;
    
 }
 form h2 {
