@@ -160,8 +160,12 @@ form input {
     color: white;
 }
 
+.btn-service:hover {
+    color: white;
+}
+
 .grey-bg-color {
-    background-color:#FBFBFB;
+    background-color:#F6F6F6;
 }
 
 .color {
@@ -211,6 +215,11 @@ form input {
     color: white;
     position: absolute;
     top: 400px;
+}
+
+.quote-btn:hover {
+    background-color: #0A2D44;
+    color: white;
 }
 
 .orange-overlay {
@@ -263,15 +272,6 @@ form input {
     text-align: center; /* Center the text horizontally */
 }
   
-/* .quote-btn {
-    background-color: #4884E8;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-}
-   */
   
 @keyframes fadeIn {
     0% {
@@ -296,8 +296,9 @@ form input {
 .container-fluid .slide-container .slide .content p {
     max-width: 400px;
     text-align: left;
+    font-weight: 700;
     font-size: 15px;
-    color: #eee;
+    color: #fff;
     animation: animate .4s linear .6s backwards;
 }
 
@@ -312,7 +313,12 @@ form input {
 }
 .container-fluid .slide-container .slide .content img {
     height: 50px;
+    z-index: 9999;
+    position: relative;
+    animation: none;
+
 }
+
 
 @keyframes animate {
     0% {
@@ -334,8 +340,7 @@ form input {
     top: 50%;
     transform: translateY(-50%);
     z-index: 100;
-    background-color: #fff;
-    color: #333;
+    color: white;
     height: 60px;
     width: 50px;
     font-size: 30px;
@@ -344,6 +349,10 @@ form input {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.container-fluid #next:hover, #prev:hover {
+    color: #F4623A;
 }
 
 .container-fluid #next {
