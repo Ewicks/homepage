@@ -335,6 +335,12 @@ form input {
     display: block;
 }
 
+.logo {
+    height: 50px;
+    width: 50%;
+
+}
+
 .container-fluid #next, #prev {
     position: absolute;
     top: 50%;
