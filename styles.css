@@ -172,6 +172,7 @@ form input {
 
 .color {
     color: #F4623A;
+    font-size: 40px;
 }
 
 .service-m {
@@ -188,10 +189,14 @@ form input {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .circle-container {
     max-width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .quote-img {
