@@ -146,6 +146,8 @@ form input {
 .services-card {
     height: 500px;
     width: 300px;
+    display: flex;
+    flex-direction: column;
 
 }
 .service-img {
@@ -173,7 +175,7 @@ form input {
 }
 
 .service-m {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .circle-img {
@@ -385,7 +387,36 @@ form input {
     .burger {
         display: none; 
     }
+    
 }
+
+@media (max-width: 970px) {
+    .form-col {
+        display: none;
+    }
+}
+
+.text-width {
+    max-width: 300px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .swiper-button-next::after {
+        display: none;
+    }
+    .swiper-button-prev::after {
+        display: none;
+    }
+
+    .tradesman-photo {
+        display: none;
+    }
+   
+
+
+}
+
 
 @media screen and (max-width: 678px) {
 
@@ -505,7 +536,7 @@ form input {
 .card {
     background-color: white;
     padding: 20px;
-    height: 200px;
+    height: fit-content;
     width: 500px;
     box-shadow: 1px 1px 7px 0px rgba(8, 42, 122, 0.15), 0px 0px 2px 0px rgba(8, 42, 122, 0.05) !important;
 }
