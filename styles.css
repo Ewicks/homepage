@@ -155,6 +155,7 @@ form input {
     width: 100%;
 }
 
+
 .btn-service {
     border-radius: 0px;
     background-color: #F4623A;
@@ -417,9 +418,9 @@ form input {
     .tradesman-photo {
         display: none;
     }
-   
-
-
+    .remove-padding {
+        padding: 0px !important;
+    }
 }
 
 
